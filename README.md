@@ -48,6 +48,10 @@ make
 sudo make check   
 sudo make install   
 
+_\* This tool require 1.56 or later._   
+_\* Because this tool uses bcm2835_gpio_write._   
+
+
 cd $HOME   
 git clone https://github.com/nopnop2002/ili9340spi_rpi   
 cd ili9340spi_rpi   
